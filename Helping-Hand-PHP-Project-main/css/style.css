@@ -110,6 +110,7 @@ a:focus {
   0% {
     -webkit-transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
   }
@@ -119,6 +120,7 @@ a:focus {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -246,6 +248,7 @@ a:focus {
   transition: 0.5s;
   z-index: 999;
 }
+
 .navbar.nav-sticky {
   position: fixed;
   top: 0;
@@ -268,10 +271,12 @@ a:focus {
   max-width: 100%;
   max-height: 40px;
 }
-#donate{
+
+#donate {
   background-color: #be86be;
-   border: 1px solid #be86be;
+  border: 1px solid #be86be;
 }
+
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -279,6 +284,7 @@ a:focus {
   padding: 10px 15px 8px 15px;
   color: #ffffff;
 }
+
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
   transform: scale(1.1);
@@ -2142,6 +2148,7 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
+
   .footer .copyright p,
   .footer .copyright .col-md-6:last-child p {
     margin: 5px 0;
