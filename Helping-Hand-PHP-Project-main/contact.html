@@ -93,7 +93,7 @@
             <a href="blog.html" class="nav-item nav-link">Blog</a>
             <a href="single.html" class="nav-item nav-link">Forum</a>
             <a href="contact.html" class="nav-item nav-link active">Contact</a>
-            <a href="NGO/login.php" class="nav-item nav-link">Donate Now</a>
+            <a href="NGO/login.php" class="nav-item nav-link" id="donate" id="donate">Donate Now</a>
           </div>
         </div>
       </div>
@@ -128,12 +128,13 @@
         </div>
         <div class="contact-form">
           <div id="success"></div>
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+          <form name="contact-form" method="post" id="contactForm"  novalidate="novalidate">
             <div class="control-group">
               <input
                 type="text"
                 class="form-control"
                 id="name"
+                name="name"
                 placeholder="Your Name"
                 required="required"
                 data-validation-required-message="Please enter your name"
@@ -145,6 +146,7 @@
                 type="email"
                 class="form-control"
                 id="email"
+                name="email"
                 placeholder="Your Email"
                 required="required"
                 data-validation-required-message="Please enter your email"
@@ -156,6 +158,7 @@
                 type="text"
                 class="form-control"
                 id="subject"
+                name="subject"
                 placeholder="Subject"
                 required="required"
                 data-validation-required-message="Please enter a subject"
@@ -166,6 +169,7 @@
               <textarea
                 class="form-control"
                 id="message"
+                name="message"
                 placeholder="Message"
                 required="required"
                 data-validation-required-message="Please enter your message"
@@ -173,13 +177,7 @@
               <p class="help-block text-danger"></p>
             </div>
             <div>
-              <button
-                class="btn btn-custom"
-                type="submit"
-                id="sendMessageButton"
-              >
-                Send Message
-              </button>
+              <input type="submit" value="submit" id="submit" class="donate">
             </div>
           </form>
         </div>
@@ -289,10 +287,11 @@
     ></script>
 
     <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    <!-- <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script> -->
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/google-sheet.js"></script>
   </body>
 </html>
