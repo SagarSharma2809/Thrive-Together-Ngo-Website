@@ -55,7 +55,7 @@ a:focus {
 }
 
 .container-fluid {
-  max-width: 1366px;
+  /* max-width: 1366px; */
 }
 
 [class^="flaticon-"]:before,
@@ -469,13 +469,14 @@ a:focus {
 
 .carousel .owl-nav {
   position: absolute;
-  width: 100%;
+  width: 96%;
   height: 60px;
   top: calc(50% - 30px);
   left: 0;
   display: flex;
   justify-content: space-between;
   z-index: 9;
+  margin: 20px;
 }
 
 .carousel .owl-nav .owl-prev,
