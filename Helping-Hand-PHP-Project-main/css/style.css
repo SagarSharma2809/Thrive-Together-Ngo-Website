@@ -260,7 +260,7 @@ a:focus {
 .navbar .navbar-brand {
   margin: 0;
   color: #ffffff;
-  font-size: 45px;
+  font-size: 12px;
   line-height: 0px;
   font-weight: 700;
   letter-spacing: 5px;
@@ -302,15 +302,33 @@ a:focus {
   color: #ffffff;
 }**/
 
+@media (min-width: 400px) {
+  .navbar .navbar-brand {
+    font-size: 16px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-brand {
+    font-size: 36px;
+  }
+
+}
+
 @media (min-width: 992px) {
   .navbar {
     position: absolute;
     width: 100%;
     top: 45px;
-    padding: 20px 60px;
+    padding: 20px 0px;
     background: transparent !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     z-index: 9;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 28px;
   }
 
   .navbar.nav-sticky {
@@ -336,6 +354,8 @@ a:focus {
     background: #20212b !important;
   }
 
+
+
   .navbar a.nav-link {
     padding: 5px;
   }
@@ -343,7 +363,21 @@ a:focus {
   .navbar .dropdown-menu {
     box-shadow: none;
   }
+
+
 }
+
+@media (min-width: 1100px) {
+  .navbar {
+    padding: 15px;
+
+  }
+
+  .navbar .navbar-brand {
+    font-size: 44px;
+  }
+}
+
 
 /*******************************/
 /********** Hero CSS ***********/
