@@ -21,7 +21,10 @@ body {
 }
 
 .logo {
-  width: 80px;
+  width: 95px;
+    top: 25px;
+    position: absolute;
+    left: 35px;
 }
 
 header {
@@ -131,4 +134,96 @@ main {
   font-family: "Bayon", sans-serif;
   font-weight: 400;
   font-size: 4.1rem;
+}
+
+.social{
+  position: absolute;
+  top: 50px;
+  right:100px;
+}
+#explore{
+  position: absolute;
+  right: 150px;
+}
+
+/* @media (max-width: 767.98px) {
+  .logo{
+    width: 70px;
+    left: 15px;
+  }
+  .text-1 h2 {
+    text-align: center;
+    font-family: "Bayon", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    margin-left: 65px;
+    margin-top: 30px;
+  }
+  .fa-instagram:before {
+    content: "\f16d";
+    position: absolute;
+    top: 55px;
+    right: 5px;
+}
+#explore{
+    position: absolute;
+    top: 100px;
+    right: 120px;
+}
+} */
+@media (max-width: 1025px) {
+  .logo{
+    width: 70px;
+    left: 15px;
+  }
+  .text-1 h2 {
+    text-align: center;
+    font-family: "Bayon", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    margin-left: -150px;
+    margin-top: 30px;
+  }
+  .fa-instagram:before {
+    content: "\f16d";
+    position: absolute;
+    top:-3px;
+    right: 5px;
+}
+#explore{
+    position: absolute;
+    top: 40px;
+    right: 120px;
+}
+.mainText{
+  font-size: 120px;
+}
+}
+
+@media (max-width: 500px) {
+  .logo{
+    width: 60px;
+    left: 15px;
+  }
+  .text-1 h2 {
+    text-align: center;
+    font-family: "Bayon", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 65px;
+    margin-top: 30px;
+  }
+  .social{
+    position: absolute;
+    top: 92px;
+    right: 50px;
+  }
+  #explore{
+    position: absolute;
+    top: 85px;
+    right: 80px;
+  }
+  .mainText{
+    font-size: 80px;
+  }
 }
