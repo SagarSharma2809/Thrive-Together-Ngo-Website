@@ -22,9 +22,9 @@ body {
 
 .logo {
   width: 95px;
-    top: 25px;
-    position: absolute;
-    left: 35px;
+  top: 25px;
+  position: absolute;
+  left: 35px;
 }
 
 header {
@@ -136,12 +136,13 @@ main {
   font-size: 4.1rem;
 }
 
-.social{
+.social {
   position: absolute;
   top: 50px;
-  right:100px;
+  right: 100px;
 }
-#explore{
+
+#explore {
   position: absolute;
   right: 150px;
 }
@@ -172,10 +173,11 @@ main {
 }
 } */
 @media (max-width: 1025px) {
-  .logo{
+  .logo {
     width: 70px;
     left: 15px;
   }
+
   .text-1 h2 {
     text-align: center;
     font-family: "Bayon", sans-serif;
@@ -184,27 +186,31 @@ main {
     margin-left: -150px;
     margin-top: 30px;
   }
+
   .fa-instagram:before {
     content: "\f16d";
     position: absolute;
-    top:-3px;
+    top: -3px;
     right: 5px;
-}
-#explore{
+  }
+
+  #explore {
     position: absolute;
     top: 40px;
     right: 120px;
-}
-.mainText{
-  font-size: 120px;
-}
+  }
+
+  .mainText {
+    font-size: 120px;
+  }
 }
 
 @media (max-width: 500px) {
-  .logo{
+  .logo {
     width: 60px;
     left: 15px;
   }
+
   .text-1 h2 {
     text-align: center;
     font-family: "Bayon", sans-serif;
@@ -213,17 +219,24 @@ main {
     margin-left: 65px;
     margin-top: 30px;
   }
-  .social{
+
+  .social {
     position: absolute;
     top: 92px;
     right: 50px;
   }
-  #explore{
+
+  #explore {
     position: absolute;
     top: 85px;
     right: 80px;
   }
-  .mainText{
+
+  .mainText {
     font-size: 80px;
+  }
+
+  main {
+    background-image: url("./Helping-Hand-PHP-Project-main/img/landing\ page\ grp\ vertical.JPG");
   }
 }
