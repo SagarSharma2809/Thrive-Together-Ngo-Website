@@ -16,6 +16,35 @@ body {
   background-color: #d2d5d5;
 }
 
+.btn.btn-custom {
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #777777;
+  border-radius: 0;
+  border: 2px solid #be86be;
+  box-shadow: inset 0 0 0 0 #be86be;
+  transition: ease-out 0.3s;
+  -webkit-transition: ease-out 0.3s;
+  -moz-transition: ease-out 0.3s;
+  color: white;
+}
+
+.btn.btn-custom:hover {
+  color: #20212b;
+  box-shadow: inset 0 0 0 30px #be86be;
+}
+
+.btn:focus,
+.form-control:focus {
+  box-shadow: none;
+}
+
+#start-btn {
+  text-decoration: none;
+}
+
 ::selection {
   background-color: #421a43;
 }
@@ -61,6 +90,13 @@ header ul a {
   font-size: 1.3rem;
 }
 
+header ul a span {
+  padding: 0 1.5rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 nav ul li a::after {
   content: "";
   width: 0;
@@ -78,7 +114,7 @@ nav ul li a:hover::after {
 
 .social a {
   font-size: 1.5rem;
-  padding: 0 3rem;
+  padding: 0 1.2rem;
 }
 
 .hamburger a {
@@ -89,10 +125,8 @@ nav ul li a:hover::after {
 main {
   position: relative;
   height: 100vh;
-  width: 100vw;
+  max-width: 100%;
   overflow: hidden;
-  /* margin-top: 10rem; */
-
   background-image: url("./Helping-Hand-PHP-Project-main/img/Thrive\ Together\ ngo\ landing\ bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -140,6 +174,9 @@ main {
   position: absolute;
   top: 50px;
   right: 100px;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
 #explore {
@@ -172,7 +209,7 @@ main {
     right: 120px;
 }
 } */
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .logo {
     width: 70px;
     left: 15px;
@@ -187,12 +224,12 @@ main {
     margin-top: 30px;
   }
 
-  .fa-instagram:before {
+  /* .fa-instagram::before {
     content: "\f16d";
     position: absolute;
     top: -3px;
     right: 5px;
-  }
+  } */
 
   #explore {
     position: absolute;
@@ -224,6 +261,7 @@ main {
     position: absolute;
     top: 92px;
     right: 50px;
+    color: white;
   }
 
   #explore {
