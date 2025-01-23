@@ -234,6 +234,8 @@ a:focus {
   background: #be86be;
 }
 
+
+
 @media (min-width: 992px) {
   .top-bar {
     padding: 0 60px;
@@ -248,6 +250,12 @@ a:focus {
   transition: 0.5s;
   z-index: 999;
 }
+
+/* .navbar-nav {
+  -ms-flex-direction: row;
+  flex-direction: row;
+  align-items: center;
+} */
 
 .navbar.nav-sticky {
   position: fixed;
@@ -275,6 +283,17 @@ a:focus {
 #donate {
   background-color: #be86be;
   border: 1px solid #be86be;
+  max-height: 3rem;
+}
+
+#volunteer {
+  border: 1px solid #be86be;
+}
+
+#volunteer:hover {
+  background-color: white;
+  color: #be86be;
+  font-weight: bold;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -307,6 +326,14 @@ a:focus {
     font-size: 16px;
   }
 
+  #volunteer {
+    margin: 0.4rem 0;
+  }
+
+  .navbar-nav {
+    align-items: start;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -314,6 +341,9 @@ a:focus {
     font-size: 36px;
   }
 
+  .navbar-nav {
+    align-items: center;
+  }
 }
 
 @media (min-width: 992px) {
@@ -325,6 +355,10 @@ a:focus {
     background: transparent !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     z-index: 9;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
   }
 
   .navbar .navbar-brand {
@@ -345,6 +379,10 @@ a:focus {
     padding: 8px 15px;
     font-size: 16px;
     letter-spacing: 1px;
+  }
+
+  #volunteer {
+    margin-left: 0.8rem;
   }
 }
 
@@ -832,7 +870,7 @@ a:focus {
   transition: background 0.5s, transform 0.5s;
 }
 
-.service .service-item:hover {
+/* .service .service-item:hover {
   background: #be86be;
   color: #ffffff;
   transform: translateY(-10px);
@@ -840,20 +878,22 @@ a:focus {
 
 .service .service-item i:hover {
   color: #ffffff;
-}
+} */
 
 .service .service-icon {
   position: relative;
   width: 60px;
 }
 
-.service .service-icon i {
+.service .service-icon i,
+img {
   position: relative;
   display: block;
   color: #be86be;
   font-size: 60px;
   line-height: 60px;
   margin-top: 5px;
+  width: 60px;
 }
 
 .service .service-text {
@@ -997,6 +1037,10 @@ a:focus {
   margin: 0 15px;
   overflow: hidden;
   background: #f3f6ff;
+  height: 46rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .causes .causes-img {
