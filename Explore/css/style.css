@@ -240,6 +240,10 @@ a:focus {
   .top-bar {
     padding: 0 60px;
   }
+
+  .carousel .carousel-text h1 {
+    font-size: 3rem !important
+  }
 }
 
 /**********************************/
@@ -309,9 +313,7 @@ a:focus {
   transform: scale(1.1);
 }
 
-.carousel .carousel-text h1 {
-  font-size: 3rem !important;
-}
+
 
 /**.navbar .dropdown-menu {
   margin-top: 0;
