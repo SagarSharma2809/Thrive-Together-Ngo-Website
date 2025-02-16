@@ -59,7 +59,7 @@ a:focus {
 }
 
 [class^="flaticon-"]:before,
-[class*=" flaticon-"]:before,
+[class*=" flaticon-"]:before, 
 [class^="flaticon-"]:after,
 [class*=" flaticon-"]:after {
   font-size: inherit;
@@ -971,6 +971,8 @@ img {
 .donate .donate-form {
   padding: 90px 30px;
   background: #be86be;
+  display: flex;
+  justify-content: center;
 }
 
 .donate .donate-form .control-group {
@@ -994,6 +996,10 @@ img {
 .donate .donate-form .form-control:-ms-input-placeholder,
 .donate .donate-form .form-control::-ms-input-placeholder {
   color: #ffffff;
+}
+
+.donate #img-QRCode {
+  width: 80%
 }
 
 .donate .donate-form .btn-group {
