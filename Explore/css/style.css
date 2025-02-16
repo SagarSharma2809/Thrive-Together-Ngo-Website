@@ -309,6 +309,10 @@ a:focus {
   transform: scale(1.1);
 }
 
+.carousel .carousel-text h1 {
+  font-size: 3rem !important;
+}
+
 /**.navbar .dropdown-menu {
   margin-top: 0;
   border: 0;
@@ -346,7 +350,7 @@ a:focus {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .navbar {
     position: absolute;
     width: 100%;
@@ -384,6 +388,7 @@ a:focus {
   #volunteer {
     margin-left: 0.8rem;
   }
+
 }
 
 @media (max-width: 991.98px) {
