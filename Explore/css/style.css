@@ -767,7 +767,7 @@ a:focus {
   position: relative;
   width: 100%;
   max-width: 700px;
-  margin: 0 auto 45px auto;
+  margin: 45px auto 20px auto;
 }
 
 .section-header p {
@@ -1240,11 +1240,8 @@ img {
 }
 
 .team .team-img img {
-
-  height: 20rem;
   width: 100%;
   transform: scale(1.1);
-  margin-bottom: -15px;
   transition: 0.3s;
 }
 
@@ -1383,7 +1380,6 @@ img {
   position: relative;
   width: 100%;
   margin: 45px 0;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 .volunteer .volunteer-content {
@@ -1403,11 +1399,9 @@ img {
 }
 
 .volunteer .volunteer-content .section-header h2 {
-  color: #ffffff;
 }
 
 .volunteer .volunteer-text p {
-  color: #ffffff;
   font-size: 18px;
 }
 
@@ -1422,7 +1416,6 @@ img {
 
 .volunteer .volunteer-form .form-control {
   height: 60px;
-  color: #ffffff;
   padding: 0 15px;
   border-radius: 0;
   border: 1px solid #ffffff;
