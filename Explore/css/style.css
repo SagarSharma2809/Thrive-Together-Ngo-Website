@@ -1050,7 +1050,7 @@ img {
   margin: 0 15px;
   overflow: hidden;
   background: #f3f6ff;
-  height: 46rem;
+  height: 40rem; 
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -1136,7 +1136,7 @@ img {
 }
 
 .causes .causes-btn {
-  margin-top: 25px;
+  /* margin-top: 25px; */
   display: flex;
   justify-content: space-between;
 }
@@ -2201,6 +2201,13 @@ img {
   color: #be86be;
 }
 
+.footer-social-heading {
+  font-size: 22px;
+  font-weight: 700;
+  color: #be86be;
+  margin-bottom: 30px;
+}
+
 .footer .footer-link a {
   display: block;
   margin-bottom: 10px;
@@ -2227,7 +2234,6 @@ img {
 
 .footer .footer-social {
   position: relative;
-  margin-top: 20px;
 }
 
 .footer .footer-social a {
